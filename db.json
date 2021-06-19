@@ -1,0 +1,42 @@
+{
+  "members": [
+    {
+      "id": 1,
+      "name": "root",
+      "permissions": [
+        {
+          "name": "user-management",
+          "admin": true,
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        {
+          "name": "permission-management",
+          "admin": true,
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        {
+          "name": "role-management",
+          "admin": true,
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        {
+          "name": "system-settings-management",
+          "admin": true,
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        }
+      ]
+    }
+  ]
+}

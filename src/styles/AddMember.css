@@ -1,0 +1,81 @@
+.add-member-container {
+  width: 100%;
+  min-height: calc(100vh - 50px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  border-right: 1px solid rgba(139, 139, 139, 0.3);
+  border-bottom: 1px solid rgba(139, 139, 139, 0.3);
+  border-radius: 10px;
+  box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.1);
+  width: 60%;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+#form-top {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#form-top-content {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#form-top-content input {
+  width: 80%;
+  padding: 1px 7px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+#form-top-content input:focus {
+  outline: none;
+  caret-color: rgba(0, 0, 0, 0.3);
+}
+#form-bottom {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+}
+.first-line,
+.second-line {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.permission-container {
+  width: 40%;
+  height: 95%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  padding: 5px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.checkbox-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30%;
+}
+#form-button-div {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#form-button-div button {
+  width: 30%;
+}

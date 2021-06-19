@@ -1,0 +1,28 @@
+.header-mine {
+  width: 100%;
+  height: 50px;
+  padding: 0 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(45, 194, 253);
+}
+nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 5rem;
+}
+.header-link {
+  color: white;
+  font-size: 1.2rem;
+}
+.header-link:hover {
+  color: white;
+  text-decoration: underline;
+}
